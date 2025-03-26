@@ -6,7 +6,7 @@ layout: post
 
 # Available Data
 
-Those without a link are yet to be released. Please contact a team member (check [references](/ref)) if you would like to access them.
+Those without a link are yet to be released. Please contact a team member (check [references]({{site.baseurl}}/ref)) if you would like to access them.
 
 ## Primary 
 * GAEA lightcone mocks
@@ -26,5 +26,5 @@ Those without a link are yet to be released. Please contact a team member (check
 ## Extension
   * WDM
   * f(R)
-  * [Interacting Dark Energy (IDE)](/ide)
+  * [Interacting Dark Energy (IDE)]({{site.baseurl}}/ide)
   * Neutrinos 

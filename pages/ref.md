@@ -7,7 +7,7 @@ layout: post
 If you use data from the Jiutian simulations, please include a citation to the overview paper, as well as to individual papers for the corresponding data product.
 
 ## overview paper
-- The Jiutian simulations for the CSST extra-galactic surveys [pdf](ref/Jiutian.pdf) 
+- The Jiutian simulations for the CSST extra-galactic surveys [pdf]({{site.baseurl}}/ref/Jiutian.pdf) 
 
 ## data product paper
 - [Emission line mock](https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4958P/abstract)

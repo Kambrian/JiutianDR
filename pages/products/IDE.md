@@ -33,7 +33,7 @@ If you find any problem in using the results, please contact Jiajun Zhang for he
 
 If you use ME-Gadget4 or these data, please cite the following papers:
 
-- Jiutian overview paper (as listed [here](/ref))
+- Jiutian overview paper (as listed [here]({{site.baseurl}}/ref))
 - https://ui.adsabs.harvard.edu/abs/2019ApJ...875L..11Z/abstract
 - https://ui.adsabs.harvard.edu/abs/2018PhRvD..98j3530Z/abstract
 
@@ -44,47 +44,47 @@ If you use ME-Gadget4 or these data, please cite the following papers:
 
 | Resolution       | Parameter Files                             | Power Spectrum                             | Group Catalog                              |
 |------------------|---------------------------------------------|--------------------------------------------|--------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/LCDM/params.tgz) | [Power spectrum](data/IDE/sim1024/LCDM/ps.tgz) | [Group catalog](data/IDE/sim1024/LCDM/groups_038.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/LCDM/params.tgz) | [Power spectrum](data/IDE/sim2048/LCDM/ps.tgz) | [Group catalog](data/IDE/sim2048/LCDM/groups_046.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/LCDM/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/LCDM/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/LCDM/groups_038.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/LCDM/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/LCDM/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/LCDM/groups_046.tgz) |
 
 ## Conformal1
 
 | Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/alpha_0.03/params.tgz) | [Power spectrum](data/IDE/sim1024/alpha_0.03/ps.tgz) | [Group catalog](data/IDE/sim1024/alpha_0.03/groups_038.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/alpha_0.03/params.tgz) | [Power spectrum](data/IDE/sim2048/alpha_0.03/ps.tgz) | [Group catalog](data/IDE/sim2048/alpha_0.03/groups_046.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/groups_038.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/groups_046.tgz) |
 
 ## Conformal2
 
 | Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/alpha_0.06/params.tgz) | [Power spectrum](data/IDE/sim1024/alpha_0.06/ps.tgz) | [Group catalog](data/IDE/sim1024/alpha_0.06/groups_038.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/alpha_0.06/params.tgz) | [Power spectrum](data/IDE/sim2048/alpha_0.06/ps.tgz) | [Group catalog](data/IDE/sim2048/alpha_0.06/groups_046.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/groups_038.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/groups_046.tgz) |
 
 ## Disformal1
 
 | Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/Dm_45/params.tgz) | [Power spectrum](data/IDE/sim1024/Dm_45/ps.tgz) | [Group catalog](data/IDE/sim1024/Dm_45/groups_038.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/Dm_45/params.tgz) | [Power spectrum](data/IDE/sim2048/Dm_45/ps.tgz) | [Group catalog](data/IDE/sim2048/Dm_45/groups_038.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/Dm_45/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/Dm_45/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/Dm_45/groups_038.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/Dm_45/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/Dm_45/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/Dm_45/groups_038.tgz) |
 
 ## Disformal2
 
 | Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/Dm_105/params.tgz) | [Power spectrum](data/IDE/sim1024/Dm_105/ps.tgz) | [Group catalog](data/IDE/sim1024/Dm_105/groups_038.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/Dm_105/params.tgz) | [Power spectrum](data/IDE/sim2048/Dm_105/ps.tgz) | [Group catalog](data/IDE/sim2048/Dm_105/groups_038.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/Dm_105/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/Dm_105/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/Dm_105/groups_038.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/Dm_105/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/Dm_105/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/Dm_105/groups_038.tgz) |
 
 ## Quintessence1
 
 | Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/lambda_0.8/params.tgz) | [Power spectrum](data/IDE/sim1024/lambda_0.8/ps.tgz) | [Group catalog](data/IDE/sim1024/lambda_0.8/groups_038.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/lambda_0.8/params.tgz) | [Power spectrum](data/IDE/sim2048/lambda_0.8/ps.tgz) | [Group catalog](data/IDE/sim2048/lambda_0.8/groups_047.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/groups_038.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/groups_047.tgz) |
 
 ## Quintessence2
 
 | Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files](data/IDE/sim1024/lambda_1.6/params.tgz) | [Power spectrum](data/IDE/sim1024/lambda_1.6/ps.tgz) | [Group catalog](data/IDE/sim1024/lambda_1.6/groups_039.tgz) |
-| High Resolution  | [Parameter files](data/IDE/sim2048/lambda_1.6/params.tgz) | [Power spectrum](data/IDE/sim2048/lambda_1.6/ps.tgz) | [Group catalog](data/IDE/sim2048/lambda_1.6/groups_038.tgz) |
+| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/groups_039.tgz) |
+| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/groups_038.tgz) |
