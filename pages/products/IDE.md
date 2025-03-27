@@ -6,7 +6,7 @@ layout: work
 
 The interacting dark energy (IDE) runs are a set of N-body runs under cosmogical models with interactions between dark energy and dark matter.
 
-The simulations released here include the 7 cosmological models listed in the Jiutian overview paper.  Each model include a low resolution ($$1024^3$$ particles) and a high resolution ($$2048^3$$ particles) run. The data files include the parameter files for the setup and output of the simulations, the powerspectrum for all snapshots, and the z=0 group catalog. 
+The simulations released here include the 7 cosmological models listed in the Jiutian overview paper.  Each model include a small box ($$1024^3$$ particles, 750Mpc/h boxsize) and a large box ($$2048^3$$ particles, 1500Mpc/h boxsize) run. The data files include the parameter files for the setup and output of the simulations, the powerspectrum for all snapshots, and the z=0 group catalog. 
 
 The parameter files include:
 - the .param files used to run each simulation, recording the cosmlogical and numerical parameters used by [ME-Gadget4](https://gitee.com/shao-eor/me-gadget4). 
@@ -17,8 +17,6 @@ The parameter files include:
 - varg_table.txt recorded the change of effective gravitational constant as a function of scale factor. 
 
 Run the properly compiled ME-Gadget4 code in the same folder of these files can make identical simulation outputs as shared in this release.
-
-Some other files recording the simulation output logs are also provided for reference.
 
 The power spectrum are calculated by Gadget4 power spectrum calculation module.
 
@@ -42,49 +40,49 @@ If you use ME-Gadget4 or these data, please cite the following papers:
 
 ## LCDM
 
-| Resolution       | Parameter Files                             | Power Spectrum                             | Group Catalog                              |
+| Boxsize       | Parameter Files                             | Power Spectrum                             | Group Catalog                              |
 |------------------|---------------------------------------------|--------------------------------------------|--------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/LCDM/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/LCDM/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/LCDM/groups_038.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/LCDM/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/LCDM/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/LCDM/groups_046.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/LCDM/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/LCDM/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/LCDM/groups_038.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/LCDM/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/LCDM/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/LCDM/groups_046.tgz) |
 
 ## Conformal1
 
-| Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
+| Boxsize       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/groups_038.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/groups_046.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/alpha_0.03/groups_038.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/alpha_0.03/groups_046.tgz) |
 
 ## Conformal2
 
-| Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
+| Boxsize       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/groups_038.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/groups_046.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/alpha_0.06/groups_038.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/alpha_0.06/groups_046.tgz) |
 
 ## Disformal1
 
-| Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
+| Boxsize       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/Dm_45/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/Dm_45/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/Dm_45/groups_038.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/Dm_45/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/Dm_45/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/Dm_45/groups_038.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/Dm_45/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/Dm_45/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/Dm_45/groups_038.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/Dm_45/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/Dm_45/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/Dm_45/groups_038.tgz) |
 
 ## Disformal2
 
-| Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
+| Boxsize       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/Dm_105/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/Dm_105/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/Dm_105/groups_038.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/Dm_105/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/Dm_105/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/Dm_105/groups_038.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/Dm_105/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/Dm_105/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/Dm_105/groups_038.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/Dm_105/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/Dm_105/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/Dm_105/groups_038.tgz) |
 
 ## Quintessence1
 
-| Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
+| Boxsize       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/groups_038.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/groups_047.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/lambda_0.8/groups_038.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/lambda_0.8/groups_047.tgz) |
 
 ## Quintessence2
 
-| Resolution       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
+| Boxsize       | Parameter Files                                     | Power Spectrum                                     | Group Catalog                                      |
 |------------------|-----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
-| Low Resolution   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/groups_039.tgz) |
-| High Resolution  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/groups_038.tgz) |
+| Small Box   | [Parameter files]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim1024/lambda_1.6/groups_039.tgz) |
+| Large Box  | [Parameter files]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/params.tgz) | [Power spectrum]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/ps.tgz) | [Group catalog]({{site.baseurl}}/download/IDE/sim2048/lambda_1.6/groups_038.tgz) |
