@@ -6,7 +6,7 @@ layout: work
 
 The interacting dark energy (IDE) runs are a set of N-body runs under cosmogical models with interactions between dark energy and dark matter.
 
-The simulations released here include the 7 cosmological models listed in the Jiutian overview paper.  Each model include a low resolution ($$1024^3$$ particles) and a high resolution ($$2048^3$$ particles) run. The data files include the parameter files for the setup and output of the simulations, the powerspectrum for all snapshots, and the z=0 group catalog. 
+The simulations released here include the 7 cosmological models listed in the Jiutian overview paper.  Each model include a small box ($$1024^3$$ particles, 750Mpc/h boxsize) and a big box ($$2048^3$$ particles, 1500Mpc/h boxsize) run. The data files include the parameter files for the setup and output of the simulations, the powerspectrum for all snapshots, and the z=0 group catalog. 
 
 The parameter files include:
 - the .param files used to run each simulation, recording the cosmlogical and numerical parameters used by [ME-Gadget4](https://gitee.com/shao-eor/me-gadget4). 
@@ -17,8 +17,6 @@ The parameter files include:
 - varg_table.txt recorded the change of effective gravitational constant as a function of scale factor. 
 
 Run the properly compiled ME-Gadget4 code in the same folder of these files can make identical simulation outputs as shared in this release.
-
-Some other files recording the simulation output logs are also provided for reference.
 
 The power spectrum are calculated by Gadget4 power spectrum calculation module.
 
