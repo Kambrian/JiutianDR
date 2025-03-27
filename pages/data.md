@@ -10,9 +10,6 @@ Those without a link are yet to be released. Please contact a team member (check
 
 ## Primary 
 * GAEA lightcone mocks
-  - Jiutian 1G
-  - Jiutian 2G
-  - Jiutian 300
 * Emission line mock
 * Lensing mock
 * [SHAM mocks](https://gax.sjtu.edu.cn/data/CSST/CSST.html)
@@ -24,7 +21,7 @@ Those without a link are yet to be released. Please contact a team member (check
 ## Reconstruction
 
 ## Extension
-  * WDM
-  * f(R)
+  * Warm Dark Matter 
+  * f(R) gravity
   * [Interacting Dark Energy (IDE)]({{site.baseurl}}/ide)
   * Neutrinos 
