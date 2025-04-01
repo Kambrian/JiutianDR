@@ -55,10 +55,11 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        {% if site.footer.follow and site.footer.follow.size > 0 %}
-          <h4>FOLLOW</h4>
+        {% if site.footer.follow and site.footer.follow.size >= 0 %}
+          <h4>LINKS</h4>
 
           <div class="social-links follow-links">
+          <!--img src="/assets/img/icons/doa.png" alt="SJTU Astronomy" style="width:22px; height:14px;" > <a href="https://astro.sjtu.edu.cn"> SJTU Astronomy </a>-->
             {% for follow in site.footer.follow %}
               <div class="social-link">
 
@@ -82,10 +83,10 @@
       </div>
 
       {% if site.footer.show_powered_by == true %}
-        <div class="footer-col footer-col-3 powered-by">
+          <div class="footer-col footer-col-3">
           <p>
           <!--  powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | <span id="year"></span> -->
-          沪交ICP备20250077
+          沪交ICP备20250079
           </p>
         </div>
       {% endif %}

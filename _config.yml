@@ -53,10 +53,14 @@ footer:
     #- type: wechat
       #value: YourWeChatUsername
       #link: "#"
-  #follow:
+  follow:
     #- type: github
       #name: GitHub
       #link: http://github.com/YourGitHubUsername
+    - type: link
+      name: doa
+      value: SJTU Astro
+      link: http://astro.sjtu.edu.cn
   
 # Exclude from processing.
 # The following items will not be processed, by default.
