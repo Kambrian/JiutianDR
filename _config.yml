@@ -45,7 +45,7 @@ header:
       slug: /ref
       
 footer:
-  show_powered_by: false
+  show_powered_by: true
   contact:
     - type: email
       name: Email
