@@ -22,8 +22,8 @@ title: Jiutian Simulations
 email: &email jiaxin.han@sjtu.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   Data release for the Jiutian simulations.
-baseurl: "/jiutian" # the subpath of your site, e.g. /blog
-url: "https://web.gravity.sjtu.edu.cn" # the base hostname & protocol for your site, e.g. http://example.com
+  #baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://jiutian.sjtu.edu.cn" # the base hostname & protocol for your site, e.g. http://example.com
   #twitter_username: jekyllrb
   #github_username:  jekyll
   

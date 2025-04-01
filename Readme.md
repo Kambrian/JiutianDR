@@ -1,4 +1,4 @@
-This is the source file for the Jiutian website: https//web.gravity.sjtu.edu.cn/jiutian
+This is the source file for the Jiutian website: https//jiutian.sjtu.edu.cn
 
 # Preparing data for submission
 
