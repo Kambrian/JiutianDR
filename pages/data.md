@@ -20,6 +20,7 @@ Those without a link are yet to be released. Please contact a team member (check
 ## Emulator
   * [Kun (鲲）Simulation Doc](https://kunsimulation.readthedocs.io/en/latest/index.html)
   * [CSST emulator](https://github.com/czymh/csstemu)
+  * [Online Calculator](https://csst-emulator.sjtu.edu.cn/)
 
 ## Reconstruction
 
